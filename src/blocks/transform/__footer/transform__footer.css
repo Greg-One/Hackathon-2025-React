@@ -1,0 +1,7 @@
+.transform__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 90px;
+  height: 48px;
+}

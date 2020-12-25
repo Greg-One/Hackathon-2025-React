@@ -1,0 +1,6 @@
+.mainpage__card {
+  width: 178px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

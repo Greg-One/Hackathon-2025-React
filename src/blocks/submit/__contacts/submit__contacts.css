@@ -1,0 +1,8 @@
+.submit__contacts {
+  padding: 0;
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  width: 580px;
+  border: none;
+}

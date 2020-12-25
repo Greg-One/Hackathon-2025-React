@@ -1,0 +1,20 @@
+@font-face {
+  src: url('./_opensans/OpenSans-SemiBold.ttf') format('truetype');
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  src: url('./_opensans/OpenSans-Bold.ttf') format('truetype');
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  src: url('./_rubik/Rubik-Regular.ttf') format('truetype');
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-style: normal;
+}

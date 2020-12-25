@@ -1,0 +1,9 @@
+.popup__redline {
+  position: absolute;
+  width: 239px;
+  height: 209px;
+  left: 0px;
+  top: 0px;
+  background-image: url(../../../assets/images/ribbon.png);
+  background-repeat: no-repeat;
+}

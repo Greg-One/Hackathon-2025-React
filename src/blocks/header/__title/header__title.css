@@ -1,0 +1,12 @@
+.header__title {
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}

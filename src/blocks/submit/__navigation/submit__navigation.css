@@ -1,0 +1,7 @@
+.submit__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 90px;
+  height: 48px;
+}
