@@ -25,6 +25,7 @@
 @import url(../blocks/categories/__card/categories__card.css);
 @import url(../blocks/categories/__card-title/categories__card-title.css);
 @import url(../blocks/categories/__card-image/categories__card-image.css);
+@import url(../blocks/categories/__card/_active/categories__card_active.css);
 
 @import url(../blocks/transform/transform.css);
 @import url(../blocks/transform/__tag-cloud/transform__tag-cloud.css);

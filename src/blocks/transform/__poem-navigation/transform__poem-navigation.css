@@ -6,4 +6,9 @@
   height: 48px;
   cursor: pointer;
   background-color: #edecf1;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.transform__poem-navigation:hover {
+  background-color: rgba(203, 202, 216, 0.7);
 }

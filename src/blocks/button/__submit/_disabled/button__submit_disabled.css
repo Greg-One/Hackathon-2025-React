@@ -7,7 +7,7 @@
   outline: none;
   height: 50px;
   width: 240px;
-  background-color: #B6B5BE;
+  background-color: #b6b5be;
   box-sizing: border-box;
   color: #fff;
   font-family: Rubik;
@@ -18,4 +18,5 @@
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: uppercase;
+  pointer-events: none;
 }

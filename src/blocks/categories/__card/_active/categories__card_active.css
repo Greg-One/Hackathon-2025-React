@@ -1,0 +1,7 @@
+.categories__card_active {
+  border: 1px solid #c32018;
+  box-sizing: border-box;
+  fill: #c32018;
+  stroke: #c32018;
+  color: #c32018;
+}
