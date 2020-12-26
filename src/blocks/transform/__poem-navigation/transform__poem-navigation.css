@@ -10,5 +10,9 @@
 }
 
 .transform__poem-navigation:hover {
+  background-color: #EFEFF3;
+}
+
+.transform__poem-navigation:active {
   background-color: rgba(203, 202, 216, 0.7);
 }
