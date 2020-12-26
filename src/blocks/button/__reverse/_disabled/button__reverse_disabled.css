@@ -18,4 +18,5 @@
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: uppercase;
+  pointer-events: none;
 }
