@@ -2,3 +2,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+  .submit__input-container {
+    max-width: 400px;
+  }
+}

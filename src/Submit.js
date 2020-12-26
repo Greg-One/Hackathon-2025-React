@@ -153,7 +153,7 @@ export default function Submit({ onSubmit, history, poem }) {
             </div>
           </div>
           <div className='submit__navigation'>
-            <nav className='button__container'>
+            <nav className='button__container button__container_submit'>
               <button
                 type='reset'
                 className='button__reverse'
