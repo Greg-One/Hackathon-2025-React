@@ -10,3 +10,10 @@
   margin-bottom: 8px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
+  .header__title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
