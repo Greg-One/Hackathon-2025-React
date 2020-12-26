@@ -5,3 +5,12 @@
   margin-top: 90px;
   height: 48px;
 }
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+  .transform__footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+  }
+}

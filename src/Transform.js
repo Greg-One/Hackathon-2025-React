@@ -140,6 +140,7 @@ export default function Transform({ history, onLawClick, onStepNext }) {
               ))}
             </ul>
             <textarea
+              disabled
               name='Пример стихотворения'
               className='translation'
               id='transform-translation'
