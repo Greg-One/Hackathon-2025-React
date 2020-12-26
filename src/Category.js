@@ -62,7 +62,7 @@ export default function Category({ history }) {
               </li>
             ))}
           </ul>
-          <div className='button__container'>
+          <div className='button__container button__container_categories'>
             <button
               type='submit'
               className={`button__next-page ${

@@ -1,0 +1,11 @@
+.button__container_categories {
+  margin: 0 24px;
+}
+
+@media screen and (max-width: 650px) and (min-width: 320px) {
+  .button__container_categories {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
