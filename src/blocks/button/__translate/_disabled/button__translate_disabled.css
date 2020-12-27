@@ -1,0 +1,21 @@
+.button__translate_disabled {
+  display: block;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  outline: none;
+  height: 55px;
+  width: 240px;
+  background-color: #B6B5BE;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: uppercase;
+  pointer-events: none;
+}

@@ -1,0 +1,23 @@
+.transform__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 90px;
+  height: 48px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  .transform__footer {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+  .transform__footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+  }
+}

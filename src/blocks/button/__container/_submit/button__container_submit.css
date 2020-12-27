@@ -1,0 +1,8 @@
+@media screen and (max-width: 970px) and (min-width: 320px) {
+  .button__container_submit {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+}

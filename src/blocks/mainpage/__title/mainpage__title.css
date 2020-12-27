@@ -1,0 +1,10 @@
+.mainpage__title {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}

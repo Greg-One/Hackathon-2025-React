@@ -1,0 +1,29 @@
+.transform__disclaimer {
+  margin: 0;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #75747c;
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: inherit;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.transform__disclaimer:hover {
+  color: #e33a22;
+}
+
+.transform__disclaimer:hover .transform__disclaimer-question {
+  fill: #e33a22;
+  stroke: #e33a22;
+}

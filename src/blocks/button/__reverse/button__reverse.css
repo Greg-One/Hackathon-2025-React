@@ -1,0 +1,32 @@
+.button__reverse {
+  margin-right: 25px;
+  display: block;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  height: 50px;
+  width: 120px;
+  border: 2px solid #0d1f53;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #0d1f53;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.button__reverse:hover {
+  border: 2px solid #364a7f;
+  color: #364a7f;
+}
+
+.button__reverse:focus {
+  border: 2px solid #0d1f53;
+  outline: 4px solid rgba(54, 74, 127, 0.5);
+}

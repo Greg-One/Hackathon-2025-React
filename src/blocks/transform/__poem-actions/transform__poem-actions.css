@@ -1,0 +1,20 @@
+.transform__poem-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 500px) {
+  .transform__poem-actions {
+    margin: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 320px) {
+  .transform__poem-actions {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

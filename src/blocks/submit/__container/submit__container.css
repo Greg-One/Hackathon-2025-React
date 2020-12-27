@@ -1,0 +1,13 @@
+.submit__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 970px) and (min-width: 320px) {
+  .submit__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
