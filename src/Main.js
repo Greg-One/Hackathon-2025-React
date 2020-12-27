@@ -22,7 +22,7 @@ const Main = ({onLawClick, history}) => {
                     <li className="mainpage__card">
                         <img
                             src={card01}
-                            alt=""
+                            alt="Изображение блокнота и ручки"
                             className="mainpage__card-image"
                         />
                         <p className="mainpage__card-title">1. Обозначьте проблему</p>
@@ -31,7 +31,7 @@ const Main = ({onLawClick, history}) => {
                     <li className="mainpage__card">
                         <img
                             src={card02}
-                            alt=""
+                            alt="Две иконки сообщений"
                             className="mainpage__card-image"
                         />
                         <p className="mainpage__card-title">2. Переведите обращение в стих</p>
@@ -40,7 +40,7 @@ const Main = ({onLawClick, history}) => {
                     <li className="mainpage__card">
                         <img
                             src={card03}
-                            alt=""
+                            alt="Коробка с бумагами"
                             className="mainpage__card-image"
                         />
                         <p className="mainpage__card-title">3. Подайте обращение</p>
@@ -49,7 +49,7 @@ const Main = ({onLawClick, history}) => {
                     <li className="mainpage__card">
                         <img
                             src={card04}
-                            alt=""
+                            alt="Лист с печатью"
                             className="mainpage__card-image"
                         />
                         <p className="mainpage__card-title">4. Ожидайте результата</p>
