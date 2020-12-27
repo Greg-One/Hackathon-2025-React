@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.c982b508.chunk.css",
-    "main.js": "./static/js/main.4a412790.chunk.js",
-    "main.js.map": "./static/js/main.4a412790.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.d82cf49e.js",
-    "runtime-main.js.map": "./static/js/runtime-main.d82cf49e.js.map",
-    "static/js/2.cf195d41.chunk.js": "./static/js/2.cf195d41.chunk.js",
-    "static/js/2.cf195d41.chunk.js.map": "./static/js/2.cf195d41.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.c982b508.chunk.css.map": "./static/css/main.c982b508.chunk.css.map",
-    "static/js/2.cf195d41.chunk.js.LICENSE.txt": "./static/js/2.cf195d41.chunk.js.LICENSE.txt",
-    "static/media/index.css": "./static/media/Rubik-Regular.a4bece5c.ttf",
-    "static/media/category1.f6e9aece.svg": "./static/media/category1.f6e9aece.svg",
-    "static/media/category2.31764bd3.svg": "./static/media/category2.31764bd3.svg",
-    "static/media/category3.193569a3.svg": "./static/media/category3.193569a3.svg",
-    "static/media/category4.b33d8198.svg": "./static/media/category4.b33d8198.svg",
-    "static/media/category5.ae8f5ae8.svg": "./static/media/category5.ae8f5ae8.svg",
-    "static/media/category6.1955c142.svg": "./static/media/category6.1955c142.svg"
+    "main.css": "https://greg-one.github.io/Hackathon-2025/static/css/main.0b41464a.chunk.css",
+    "main.js": "https://greg-one.github.io/Hackathon-2025/static/js/main.cbe1a512.chunk.js",
+    "main.js.map": "https://greg-one.github.io/Hackathon-2025/static/js/main.cbe1a512.chunk.js.map",
+    "runtime-main.js": "https://greg-one.github.io/Hackathon-2025/static/js/runtime-main.75a5f300.js",
+    "runtime-main.js.map": "https://greg-one.github.io/Hackathon-2025/static/js/runtime-main.75a5f300.js.map",
+    "static/js/2.cf195d41.chunk.js": "https://greg-one.github.io/Hackathon-2025/static/js/2.cf195d41.chunk.js",
+    "static/js/2.cf195d41.chunk.js.map": "https://greg-one.github.io/Hackathon-2025/static/js/2.cf195d41.chunk.js.map",
+    "index.html": "https://greg-one.github.io/Hackathon-2025/index.html",
+    "static/css/main.0b41464a.chunk.css.map": "https://greg-one.github.io/Hackathon-2025/static/css/main.0b41464a.chunk.css.map",
+    "static/js/2.cf195d41.chunk.js.LICENSE.txt": "https://greg-one.github.io/Hackathon-2025/static/js/2.cf195d41.chunk.js.LICENSE.txt",
+    "static/media/index.css": "https://greg-one.github.io/Hackathon-2025/static/media/Rubik-Regular.a4bece5c.ttf",
+    "static/media/category1.f6e9aece.svg": "https://greg-one.github.io/Hackathon-2025/static/media/category1.f6e9aece.svg",
+    "static/media/category2.31764bd3.svg": "https://greg-one.github.io/Hackathon-2025/static/media/category2.31764bd3.svg",
+    "static/media/category3.193569a3.svg": "https://greg-one.github.io/Hackathon-2025/static/media/category3.193569a3.svg",
+    "static/media/category4.b33d8198.svg": "https://greg-one.github.io/Hackathon-2025/static/media/category4.b33d8198.svg",
+    "static/media/category5.ae8f5ae8.svg": "https://greg-one.github.io/Hackathon-2025/static/media/category5.ae8f5ae8.svg",
+    "static/media/category6.1955c142.svg": "https://greg-one.github.io/Hackathon-2025/static/media/category6.1955c142.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d82cf49e.js",
+    "static/js/runtime-main.75a5f300.js",
     "static/js/2.cf195d41.chunk.js",
-    "static/css/main.c982b508.chunk.css",
-    "static/js/main.4a412790.chunk.js"
+    "static/css/main.0b41464a.chunk.css",
+    "static/js/main.cbe1a512.chunk.js"
   ]
 }
