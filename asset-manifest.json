@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Hackathon-2025/static/css/main.edb1e2b7.chunk.css",
-    "main.js": "/Hackathon-2025/static/js/main.afbddd42.chunk.js",
-    "main.js.map": "/Hackathon-2025/static/js/main.afbddd42.chunk.js.map",
-    "runtime-main.js": "/Hackathon-2025/static/js/runtime-main.dc1818ad.js",
-    "runtime-main.js.map": "/Hackathon-2025/static/js/runtime-main.dc1818ad.js.map",
-    "static/js/2.54a932af.chunk.js": "/Hackathon-2025/static/js/2.54a932af.chunk.js",
-    "static/js/2.54a932af.chunk.js.map": "/Hackathon-2025/static/js/2.54a932af.chunk.js.map",
-    "index.html": "/Hackathon-2025/index.html",
-    "static/css/main.edb1e2b7.chunk.css.map": "/Hackathon-2025/static/css/main.edb1e2b7.chunk.css.map",
-    "static/js/2.54a932af.chunk.js.LICENSE.txt": "/Hackathon-2025/static/js/2.54a932af.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Hackathon-2025/static/media/Rubik-Regular.a4bece5c.ttf",
-    "static/media/category1.f6e9aece.svg": "/Hackathon-2025/static/media/category1.f6e9aece.svg",
-    "static/media/category2.31764bd3.svg": "/Hackathon-2025/static/media/category2.31764bd3.svg",
-    "static/media/category3.193569a3.svg": "/Hackathon-2025/static/media/category3.193569a3.svg",
-    "static/media/category4.b33d8198.svg": "/Hackathon-2025/static/media/category4.b33d8198.svg",
-    "static/media/category5.ae8f5ae8.svg": "/Hackathon-2025/static/media/category5.ae8f5ae8.svg",
-    "static/media/category6.1955c142.svg": "/Hackathon-2025/static/media/category6.1955c142.svg"
+    "main.css": "/Hackathon-2025-React/static/css/main.d9f24fa2.chunk.css",
+    "main.js": "/Hackathon-2025-React/static/js/main.afbddd42.chunk.js",
+    "main.js.map": "/Hackathon-2025-React/static/js/main.afbddd42.chunk.js.map",
+    "runtime-main.js": "/Hackathon-2025-React/static/js/runtime-main.1cd04801.js",
+    "runtime-main.js.map": "/Hackathon-2025-React/static/js/runtime-main.1cd04801.js.map",
+    "static/js/2.54a932af.chunk.js": "/Hackathon-2025-React/static/js/2.54a932af.chunk.js",
+    "static/js/2.54a932af.chunk.js.map": "/Hackathon-2025-React/static/js/2.54a932af.chunk.js.map",
+    "index.html": "/Hackathon-2025-React/index.html",
+    "static/css/main.d9f24fa2.chunk.css.map": "/Hackathon-2025-React/static/css/main.d9f24fa2.chunk.css.map",
+    "static/js/2.54a932af.chunk.js.LICENSE.txt": "/Hackathon-2025-React/static/js/2.54a932af.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Hackathon-2025-React/static/media/Rubik-Regular.a4bece5c.ttf",
+    "static/media/category1.f6e9aece.svg": "/Hackathon-2025-React/static/media/category1.f6e9aece.svg",
+    "static/media/category2.31764bd3.svg": "/Hackathon-2025-React/static/media/category2.31764bd3.svg",
+    "static/media/category3.193569a3.svg": "/Hackathon-2025-React/static/media/category3.193569a3.svg",
+    "static/media/category4.b33d8198.svg": "/Hackathon-2025-React/static/media/category4.b33d8198.svg",
+    "static/media/category5.ae8f5ae8.svg": "/Hackathon-2025-React/static/media/category5.ae8f5ae8.svg",
+    "static/media/category6.1955c142.svg": "/Hackathon-2025-React/static/media/category6.1955c142.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc1818ad.js",
+    "static/js/runtime-main.1cd04801.js",
     "static/js/2.54a932af.chunk.js",
-    "static/css/main.edb1e2b7.chunk.css",
+    "static/css/main.d9f24fa2.chunk.css",
     "static/js/main.afbddd42.chunk.js"
   ]
 }
