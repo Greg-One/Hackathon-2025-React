@@ -6,7 +6,7 @@ import card04 from './assets/images/card04.png';
 import header_logo from './assets/images/header_logo.png';
 import PropTypes from 'prop-types';
 
-const Main= ({ onLawClick, history}) => {
+const Main = ({onLawClick, history}) => {
     return (
         <div className="page">
             <header className="header">
@@ -55,7 +55,7 @@ const Main= ({ onLawClick, history}) => {
                         <p className="mainpage__card-title">4. Ожидайте результата</p>
                     </li>
                 </ul>
-                <button type="submit" className="button__submit" onClick={() => history.push('/category')}>
+                <button type="submit" className="button__submit" onClick={() => history.push('./category')}>
                     Подать обращение
                 </button>
             </main>

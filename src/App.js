@@ -5,12 +5,10 @@ import Transform from "./Transform";
 import Main from "./Main";
 import SubmitResult from "./SubmitResult";
 import LawPopup from "./LawPopup";
-import {Redirect, Route} from "react-router";
-import {Switch, useHistory} from "react-router-dom";
+import {Redirect, Route, Switch, useHistory} from "react-router";
 
 function App() {
     const [email, setEmail] = useState('');
-    const [poem, setPoem] = useState('');
     const [isViewLawPopupOpen, setViewLawPopupOpen] = useState(false);
     const [isSubmitResultPopupOpen, setSubmitResultPopupOpen] = useState(false);
 
@@ -33,12 +31,13 @@ function App() {
 
     function handleSubmitOkClick() {
         closeAllPopups();
-        history.push('/');
+        history.push('./');
     }
-    function handleStepSubmit({poem}) {
-        setPoem(poem);
-        history.push('/submit');
+
+    function handleStepSubmit() {
+        history.push('./submit');
     }
+
 
     return (
         <div className="page">
@@ -65,7 +64,6 @@ function App() {
                     <Submit
                         history={history}
                         onSubmit={handleSubmitClick}
-                        poem={poem}
                     />
                 </Route>
                 <Route path="/">
@@ -83,6 +81,7 @@ function App() {
                 onOk={handleSubmitOkClick}
                 email={email}
             />
+
         </div>
     );
 }

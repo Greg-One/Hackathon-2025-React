@@ -70,9 +70,9 @@ const Transform = ({history, onLawClick, onStepNext}) => {
                 }
             }
         } catch (err) {
-            history.push('/category');
+            history.push('./category');
         }
-    }, [history, transform]);
+    }, [history]);
 
     useEffect(() => {
         try {
@@ -83,16 +83,12 @@ const Transform = ({history, onLawClick, onStepNext}) => {
     }, [tag.id]);
 
     useEffect(() => {
-        setTranslate((tag.id > 0));
-    }, [tag]);
-
-    useEffect(() => {
         setNext((poem !== ''));
     }, [poem]);
 
 
     function handleSubmit() {
-        onStepNext({poem});
+        onStepNext();
     }
 
     function handleTransform() {
@@ -149,7 +145,6 @@ const Transform = ({history, onLawClick, onStepNext}) => {
     function handleTag(currentTag) {
         setTag(currentTag);
         setPoem('');
-        setTranslate(false);
         setNext(false);
         Storage.updateItem({tag: currentTag.id});
     }
@@ -157,7 +152,7 @@ const Transform = ({history, onLawClick, onStepNext}) => {
     return (
         <div className='page'>
             <header className='header header_with_title'>
-                <Link to='/'>
+                <Link to='./'>
                     <img src={header_logo} alt='' className='header__logo'/>
                 </Link>
                 <div className='header__title-container'>
@@ -291,7 +286,7 @@ const Transform = ({history, onLawClick, onStepNext}) => {
                         <nav className='button__container'>
                             <button
                                 className='button__reverse'
-                                onClick={() => history.push('/category')}
+                                onClick={() => history.push('./category')}
                             >
                                 Назад
                             </button>

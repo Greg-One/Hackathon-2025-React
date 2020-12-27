@@ -23,7 +23,7 @@ const Submit = ({onSubmit, history}) => {
                 setPoem(data.poem);
             }
         } catch {
-            history.push('/category');
+            history.push('./category');
         }
     }, [history]);
 
@@ -39,7 +39,7 @@ const Submit = ({onSubmit, history}) => {
     return (
         <div className='page'>
             <header className='header header_with_title'>
-                <Link to='/'>
+                <Link to='./'>
                     <img src={header_logo} alt='' className='header__logo'/>
                 </Link>
                 <div className='header__title-container'>
@@ -163,7 +163,7 @@ const Submit = ({onSubmit, history}) => {
                             <button
                                 type='reset'
                                 className='button__reverse'
-                                onClick={() => history.push('/transform')}
+                                onClick={() => history.push('./transform')}
                                 form='form'
                             >
                                 Назад
