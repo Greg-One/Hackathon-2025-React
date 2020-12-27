@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import popup__logo from './assets/images/popup__logo.png';
+import PropTypes from "prop-types";
 
 const LawPopup = ({ isOpen, onClose }) => {
     return (
@@ -42,6 +43,10 @@ const LawPopup = ({ isOpen, onClose }) => {
     );
 };
 
+LawPopup.propTypes = {
+    isOpen: PropTypes.bool.isRequired,
+    onClose: PropTypes.func.isRequired,
+}
 
 function areEqual(prevProps, nextProps) {
     return (

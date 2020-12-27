@@ -16,7 +16,6 @@ function App() {
 
     const history = useHistory();
 
-
     function handleViewLawClick() {
         setViewLawPopupOpen(true);
     }

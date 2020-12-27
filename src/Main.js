@@ -4,9 +4,9 @@ import card02 from './assets/images/card02.png';
 import card03 from './assets/images/card03.png';
 import card04 from './assets/images/card04.png';
 import header_logo from './assets/images/header_logo.png';
+import PropTypes from 'prop-types';
 
-
-export default function Main({onSetPage, onLawClick, history}) {
+const Main= ({ onLawClick, history}) => {
     return (
         <div className="page">
             <header className="header">
@@ -71,3 +71,12 @@ export default function Main({onSetPage, onLawClick, history}) {
 
     );
 }
+
+Main.propTypes = {
+    onLawClick: PropTypes.func.isRequired,
+    history: PropTypes.shape({
+        push: PropTypes.func.isRequired,
+    }).isRequired
+}
+
+export default Main;
