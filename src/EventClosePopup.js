@@ -1,5 +1,5 @@
-import React, {useEffect, useRef} from "react";
-import PropTypes from "prop-types";
+import React, {useEffect, useRef} from 'react';
+import PropTypes from 'prop-types';
 
 const EventClosePopup = ({children, isOpen, onClose}) => {
     const ref = useRef(null);
