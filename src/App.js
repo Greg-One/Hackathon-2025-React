@@ -5,8 +5,7 @@ import Transform from "./Transform";
 import Main from "./Main";
 import SubmitResult from "./SubmitResult";
 import LawPopup from "./LawPopup";
-import {Redirect, Route} from "react-router";
-import {Switch, useHistory} from "react-router";
+import {Redirect, Route, Switch, useHistory} from "react-router";
 
 function App() {
     const [email, setEmail] = useState('');
@@ -34,9 +33,11 @@ function App() {
         closeAllPopups();
         history.push('./');
     }
+
     function handleStepSubmit() {
         history.push('./submit');
     }
+
 
     return (
         <div className="page">
@@ -80,6 +81,7 @@ function App() {
                 onOk={handleSubmitOkClick}
                 email={email}
             />
+
         </div>
     );
 }

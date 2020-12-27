@@ -1,7 +1,7 @@
 {
   "name": "hackathon-2025-react",
   "version": "0.1.0",
-  "homepage": "https://greg-one.github.io/Hackathon-2025-React",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
@@ -12,8 +12,7 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "typescript": "^4.1.3",
-    "web-vitals": "^0.2.4"
+    "typescript": "^4.1.3"
   },
   "scripts": {
     "start": "react-scripts start --open",

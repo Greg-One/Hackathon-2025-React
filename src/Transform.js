@@ -145,7 +145,6 @@ const Transform = ({history, onLawClick, onStepNext}) => {
     function handleTag(currentTag) {
         setTag(currentTag);
         setPoem('');
-        setTranslate(false);
         setNext(false);
         Storage.updateItem({tag: currentTag.id});
     }

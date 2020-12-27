@@ -6,7 +6,7 @@ import card04 from './assets/images/card04.png';
 import header_logo from './assets/images/header_logo.png';
 import PropTypes from 'prop-types';
 
-const Main= ({ onLawClick, history}) => {
+const Main = ({onLawClick, history}) => {
     return (
         <div className="page">
             <header className="header">
