@@ -1,0 +1,12 @@
+.transform__poem-navigation_disabled {
+  outline: none;
+  border: none;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  pointer-events: none;
+  stroke: #b6b5be;
+  fill: #b6b5be;
+  opacity: 0.5;
+}

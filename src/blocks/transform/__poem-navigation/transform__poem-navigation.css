@@ -7,10 +7,11 @@
   cursor: pointer;
   background-color: #edecf1;
   transition: background-color 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .transform__poem-navigation:hover {
-  background-color: #EFEFF3;
+  background-color: #efeff3;
 }
 
 .transform__poem-navigation:active {
