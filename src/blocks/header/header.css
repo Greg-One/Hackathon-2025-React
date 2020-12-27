@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1182px) and (min-width: 768px) {
   .header {
     margin: 48px 32px 32px;
   }

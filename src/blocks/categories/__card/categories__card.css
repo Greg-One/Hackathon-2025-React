@@ -12,6 +12,7 @@
   background-color: #fff;
   box-sizing: border-box;
   padding: 0;
+  padding-left: 20px;
 }
 
 .categories__card:hover {

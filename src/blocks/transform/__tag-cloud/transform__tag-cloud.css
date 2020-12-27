@@ -11,7 +11,15 @@
   gap: 10px;
 }
 
-@media screen and (max-width: 600px) and (min-width: 400px) {
+@media screen and (max-width: 910px) and (min-width: 320px) {
+  .transform__tag-cloud {
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 400px) {
   .transform__tag-cloud {
     width: 378px;
   }

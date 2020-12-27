@@ -8,3 +8,10 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .mainpage__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

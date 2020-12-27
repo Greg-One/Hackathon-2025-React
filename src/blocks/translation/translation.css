@@ -18,6 +18,14 @@
   color: #0c0e1a;
 }
 
+@media screen and (max-width: 910px) and (min-width: 700px) {
+  .translation {
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 400px) and (min-width: 320px) {
   .translation {
     width: 315px;

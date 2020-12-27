@@ -36,6 +36,7 @@
 @import url(../blocks/transform/__poem-container/transform__poem-container.css);
 @import url(../blocks/transform/__poem-actions/transform__poem-actions.css);
 @import url(../blocks/transform/__poem-navigation/transform__poem-navigation.css);
+@import url(../blocks/transform/__poem-navigation/_disabled/transform__poem-navigation_disabled.css);
 @import url(../blocks/transform/__footer/transform__footer.css);
 @import url(../blocks/transform/__footer-info/transform__footer-info.css);
 @import url(../blocks/transform/__disclaimer-question/transform__disclaimer-question.css);
