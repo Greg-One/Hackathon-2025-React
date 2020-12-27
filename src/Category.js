@@ -70,7 +70,7 @@ const Category = ({history}) => {
                                     key={i.id}
                                     onClick={() => handleCategory(i.id)}
                                 >
-                                    <img src={`./${categoriesIcon.get(i.id)}`} alt=""/>
+                                    <img src={categoriesIcon.get(i.id)} alt=""/>
                                     <p className='categories__card-title'>{i.name}</p>
                                 </button>
                             </li>
