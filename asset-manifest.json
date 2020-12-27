@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Hackathon-2025-React/static/css/main.fe742060.chunk.css",
-    "main.js": "/Hackathon-2025-React/static/js/main.6e646434.chunk.js",
-    "main.js.map": "/Hackathon-2025-React/static/js/main.6e646434.chunk.js.map",
+    "main.js": "/Hackathon-2025-React/static/js/main.53edb5ca.chunk.js",
+    "main.js.map": "/Hackathon-2025-React/static/js/main.53edb5ca.chunk.js.map",
     "runtime-main.js": "/Hackathon-2025-React/static/js/runtime-main.1cd04801.js",
     "runtime-main.js.map": "/Hackathon-2025-React/static/js/runtime-main.1cd04801.js.map",
     "static/js/2.cf195d41.chunk.js": "/Hackathon-2025-React/static/js/2.cf195d41.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.1cd04801.js",
     "static/js/2.cf195d41.chunk.js",
     "static/css/main.fe742060.chunk.css",
-    "static/js/main.6e646434.chunk.js"
+    "static/js/main.53edb5ca.chunk.js"
   ]
 }
