@@ -48,7 +48,7 @@ const Category = ({history}) => {
     return (
         <div className='page'>
             <header className='header header_with_title'>
-                <Link to='/'>
+                <Link to='./'>
                     <img src={header_logo} alt='' className='header__logo'/>
                 </Link>
                 <div className='header__title-container'>
@@ -70,7 +70,7 @@ const Category = ({history}) => {
                                     key={i.id}
                                     onClick={() => handleCategory(i.id)}
                                 >
-                                    <img src={categoriesIcon.get(i.id)} alt=""/>
+                                    <img src={`./${categoriesIcon.get(i.id)}`} alt=""/>
                                     <p className='categories__card-title'>{i.name}</p>
                                 </button>
                             </li>
@@ -83,7 +83,7 @@ const Category = ({history}) => {
                                 !isNext ? 'button__next-page_disabled' : ''
                             }`}
                             disabled={!isNext}
-                            onClick={() => history.push('/transform')}
+                            onClick={() => history.push('./transform')}
                         >
                             Далее
                         </button>

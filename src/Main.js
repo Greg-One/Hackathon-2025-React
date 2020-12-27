@@ -55,7 +55,7 @@ const Main= ({ onLawClick, history}) => {
                         <p className="mainpage__card-title">4. Ожидайте результата</p>
                     </li>
                 </ul>
-                <button type="submit" className="button__submit" onClick={() => history.push('/category')}>
+                <button type="submit" className="button__submit" onClick={() => history.push('./category')}>
                     Подать обращение
                 </button>
             </main>
