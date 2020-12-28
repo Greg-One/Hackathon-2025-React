@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import header_logo from './assets/images/header_logo.png';
 import categories from './units/base';
-import category1 from './assets/images/category1.svg';
-import category2 from './assets/images/category2.svg';
-import category3 from './assets/images/category3.svg';
-import category4 from './assets/images/category4.svg';
-import category5 from './assets/images/category5.svg';
-import category6 from './assets/images/category6.svg';
+import {ReactComponent as category1} from './assets/images/category1.svg';
+import {ReactComponent as category2} from './assets/images/category2.svg';
+import {ReactComponent as category3} from './assets/images/category3.svg';
+import {ReactComponent as category4} from './assets/images/category4.svg';
+import {ReactComponent as category5} from './assets/images/category5.svg';
+import {ReactComponent as category6} from './assets/images/category6.svg';
 import {Link} from 'react-router-dom';
 import Storage from './units/storage';
 import PropTypes from 'prop-types';
@@ -16,7 +16,7 @@ const Category = ({history}) => {
     const [category, setCategory] = useState(0);
     const [isNext, setNext] = useState(false);
 
-    // TODO Доработать, чтобы иконки не зависили от массива переменных (не нужно было добавлять)
+    // TODO Доработать, чтобы иконки не зависили от массива переменных, массовый импорт
     const categoriesIcon = new Map();
     categoriesIcon.set(1, category1);
     categoriesIcon.set(2, category2);
@@ -70,7 +70,9 @@ const Category = ({history}) => {
                                     key={i.id}
                                     onClick={() => handleCategory(i.id)}
                                 >
-                                    <img src={categoriesIcon.get(i.id)} alt=""/>
+                                    {React.createElement(categoriesIcon.get(i.id), {
+                                        className: "categories__card-image"
+                                    })}
                                     <p className='categories__card-title'>{i.name}</p>
                                 </button>
                             </li>
