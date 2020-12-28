@@ -1,4 +1,4 @@
-import React, {memo} from "react";
+import React from "react";
 import popup__logo from './assets/images/popup__logo.png';
 import PropTypes from "prop-types";
 import EventClosePopup from "./EventClosePopup";
@@ -52,10 +52,4 @@ LawPopup.propTypes = {
     onClose: PropTypes.func.isRequired,
 }
 
-function areEqual(prevProps, nextProps) {
-    return (
-        nextProps.isOpen === prevProps.isOpen
-    );
-}
-
-export default memo(LawPopup, areEqual);
+export default LawPopup;
