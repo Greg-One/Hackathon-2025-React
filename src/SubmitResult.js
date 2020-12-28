@@ -2,7 +2,7 @@ import React, {memo} from "react";
 import PropTypes from "prop-types";
 import EventClosePopup from "./EventClosePopup";
 
-const SubmitResult = ({isOpen, onClose, onOk, email}) => {
+const SubmitResult = ({isOpen, onClose, email}) => {
     return (
         <section className={`popup popup__submit ${isOpen ? "popup_is-opened" : ''}`}>
             <EventClosePopup isOpen={isOpen} onClose={onClose}>
@@ -17,7 +17,7 @@ const SubmitResult = ({isOpen, onClose, onOk, email}) => {
                     </p>
 
                     <button type="button" className="button__next-page button__next-page_confirm"
-                            onClick={onOk}
+                            onClick={onClose}
                     >
                         Ок
                     </button>
@@ -30,7 +30,6 @@ const SubmitResult = ({isOpen, onClose, onOk, email}) => {
 SubmitResult.propTypes = {
     isOpen: PropTypes.bool.isRequired,
     onClose: PropTypes.func.isRequired,
-    onOk: PropTypes.func.isRequired,
     email: PropTypes.string.isRequired,
 }
 

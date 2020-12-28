@@ -7,3 +7,9 @@
   max-width: 950px;
   z-index: 1;
 }
+
+@media screen and (max-height: 850px) {
+  .popup__container {
+    max-height: 600px;
+  }
+}
