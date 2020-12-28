@@ -78,7 +78,6 @@ function App() {
                 history={history}
                 isOpen={isSubmitResultPopupOpen}
                 onClose={handleSubmitOkClick}
-                onOk={handleSubmitOkClick}
                 email={email}
             />
 

@@ -13,6 +13,7 @@ const Transform = ({history, onLawClick, onStepNext}) => {
     const [currentPoemNum, setCurrentPoemNum] = useState(0);
     const [isNext, setNext] = useState(false);
     const [isTranslate, setTranslate] = useState(false);
+    const [isLoading, setLoading] = useState(false);
 
     const transform = useCallback((currentTag = '', currentNum = 0) => {
         const tagArray = (currentTag) ? currentTag : tag;
@@ -20,6 +21,8 @@ const Transform = ({history, onLawClick, onStepNext}) => {
         const promises = tagArray.keywords.map((i) => {
             return fetch(encodeURI(`https://www.buymebuyme.xyz/?q=${i}`));
         });
+
+        setLoading(true);
 
         Promise.all(promises)
             .then((responses) => Promise.all(responses.map((r) => r.json())))
@@ -43,7 +46,8 @@ const Transform = ({history, onLawClick, onStepNext}) => {
             })
             .catch(() => {
                 // Ошибка получения, обработки данных
-            });
+            })
+            .finally(() => setLoading(false));
     }, [tag]);
 
     useEffect(() => {
@@ -196,7 +200,7 @@ const Transform = ({history, onLawClick, onStepNext}) => {
                             disabled={!isTranslate}
                             onClick={handleTransform}
                         >
-                            Перевести
+                            {isLoading ? 'Переводиться...' : 'Перевести'}
                         </button>
                         <div className='transform__translation-controls'>
                             <button
