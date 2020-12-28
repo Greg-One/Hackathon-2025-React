@@ -200,7 +200,7 @@ const Transform = ({history, onLawClick, onStepNext}) => {
                             disabled={!isTranslate}
                             onClick={handleTransform}
                         >
-                            {isLoading ? 'Переводиться...' : 'Перевести'}
+                            {isLoading ? 'Переводится...' : 'Перевести'}
                         </button>
                         <div className='transform__translation-controls'>
                             <button
