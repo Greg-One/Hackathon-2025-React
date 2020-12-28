@@ -1,8 +1,9 @@
-import React, {memo} from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import EventClosePopup from "./EventClosePopup";
 
 const SubmitResult = ({isOpen, onClose, email}) => {
+
     return (
         <section className={`popup popup__submit ${isOpen ? "popup_is-opened" : ''}`}>
             <EventClosePopup isOpen={isOpen} onClose={onClose}>
@@ -33,10 +34,4 @@ SubmitResult.propTypes = {
     email: PropTypes.string.isRequired,
 }
 
-function areEqual(prevProps, nextProps) {
-    return (
-        nextProps.isOpen === prevProps.isOpen
-    );
-}
-
-export default memo(SubmitResult, areEqual);
+export default SubmitResult;

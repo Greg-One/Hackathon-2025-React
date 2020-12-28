@@ -65,8 +65,6 @@ const Main = ({onLawClick, history}) => {
                     через фильтры цензуры с помощью поэзии
                 </p>
             </footer>
-
-            {/*<script src="scripts/index.js"></script>*/}
         </div>
 
     );
