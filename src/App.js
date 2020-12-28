@@ -77,7 +77,7 @@ function App() {
             <SubmitResult
                 history={history}
                 isOpen={isSubmitResultPopupOpen}
-                onClose={closeAllPopups}
+                onClose={handleSubmitOkClick}
                 onOk={handleSubmitOkClick}
                 email={email}
             />
