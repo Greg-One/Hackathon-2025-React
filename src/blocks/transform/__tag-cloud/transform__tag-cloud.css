@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 700px) and (min-width: 400px) {
+@media screen and (max-width: 700px) and (min-width: 320px) {
   .transform__tag-cloud {
     max-height: 500px;
     width: 378px;
