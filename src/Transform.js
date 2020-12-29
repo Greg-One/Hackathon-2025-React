@@ -289,7 +289,7 @@ const Transform = ({history, onLawClick, onStepNext}) => {
                         </div>
                         <nav className='button__container'>
                             <button
-                                className='button__reverse'
+                                className='button__reverse button__reverse_translate'
                                 onClick={() => history.push('./category')}
                             >
                                 Назад

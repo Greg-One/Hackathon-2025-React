@@ -74,6 +74,7 @@
 @import url(../blocks/button/__next-page/_disabled/button__next-page_disabled.css);
 @import url(../blocks/button/__submit/_disabled/button__submit_disabled.css);
 @import url(../blocks/button/__reverse/_disabled/button__reverse_disabled.css);
+@import url(../blocks/button/__reverse/_translate/button__reverse_translate.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__close-button/popup__close-button.css);
