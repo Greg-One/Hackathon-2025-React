@@ -1,6 +1,6 @@
 .transform__tag-cloud {
   list-style: none;
-  padding-top: 5px;
+  padding: 10px 30px;
   width: 580px;
   margin: 0;
   max-height: 215px;
