@@ -3,3 +3,9 @@
   width: 40px;
   margin-left: 45px;
 }
+
+@media screen and (max-width: 510px) and (min-width: 320px) {
+  .categories__card-image {
+    margin-left: 0;
+  }
+}
