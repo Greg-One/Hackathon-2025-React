@@ -40,6 +40,8 @@
 @import url(../blocks/transform/__footer/transform__footer.css);
 @import url(../blocks/transform/__footer-info/transform__footer-info.css);
 @import url(../blocks/transform/__disclaimer-question/transform__disclaimer-question.css);
+@import url(../blocks/transform/__poem-group/transform__poem-group.css);
+@import url(../blocks/transform/__tag-group/transform__tag-group.css);
 
 @import url(../blocks/submit/submit.css);
 @import url(../blocks/submit/__contacts/submit__contacts.css);

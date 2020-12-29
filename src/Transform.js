@@ -170,6 +170,8 @@ const Transform = ({history, onLawClick, onStepNext}) => {
             <main>
                 <section className='transform'>
                     <div className='transform__poem-container'>
+                        
+                        <div className="transform__tag-group">
                         <ul className='transform__tag-cloud'>
                             {tags.map((i) => (
                                 <li key={i.id}>
@@ -185,15 +187,6 @@ const Transform = ({history, onLawClick, onStepNext}) => {
                                 </li>
                             ))}
                         </ul>
-                        <textarea
-                            disabled
-                            name='Пример стихотворения'
-                            className='translation'
-                            id='transform-translation'
-                            defaultValue={poem}
-                        />
-                    </div>
-                    <nav className='transform__poem-actions'>
                         <button
                             className={`button__translate
                            ${!isTranslate ? 'button__translate_disabled' : ''}`}
@@ -202,6 +195,19 @@ const Transform = ({history, onLawClick, onStepNext}) => {
                         >
                             {isLoading ? 'Переводится...' : 'Перевести'}
                         </button>
+                        </div>
+
+                        
+                        <div className="transform__poem-group">
+                        <textarea
+                            disabled
+                            name='Пример стихотворения'
+                            className='translation'
+                            id='transform-translation'
+                            defaultValue={poem}
+                        />
+
+                                <nav className='transform__poem-actions'>
                         <div className='transform__translation-controls'>
                             <button
                                 className={`transform__poem-navigation
@@ -262,6 +268,9 @@ const Transform = ({history, onLawClick, onStepNext}) => {
                             </button>
                         </div>
                     </nav>
+                </div>
+                    </div>
+                   
 
                     <div className='transform__footer'>
                         <div className='transform__footer-info'>

@@ -1,0 +1,4 @@
+.transform__tag-group {
+  display: flex;
+  flex-direction: column;
+}
