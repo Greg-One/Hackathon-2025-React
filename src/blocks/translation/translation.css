@@ -18,7 +18,7 @@
   color: #0c0e1a;
 }
 
-@media screen and (max-width: 910px) and (min-width: 700px) {
+@media screen and (max-width: 945px) and (min-width: 700px) {
   .translation {
     max-height: 216px;
     width: 580px;
