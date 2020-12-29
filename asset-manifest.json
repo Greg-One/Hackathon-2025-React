@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Hackathon-2025-React/static/css/main.96e1e190.chunk.css",
-    "main.js": "/Hackathon-2025-React/static/js/main.f1273819.chunk.js",
-    "main.js.map": "/Hackathon-2025-React/static/js/main.f1273819.chunk.js.map",
+    "main.css": "/Hackathon-2025-React/static/css/main.fb706a9c.chunk.css",
+    "main.js": "/Hackathon-2025-React/static/js/main.fd229f4e.chunk.js",
+    "main.js.map": "/Hackathon-2025-React/static/js/main.fd229f4e.chunk.js.map",
     "runtime-main.js": "/Hackathon-2025-React/static/js/runtime-main.1cd04801.js",
     "runtime-main.js.map": "/Hackathon-2025-React/static/js/runtime-main.1cd04801.js.map",
     "static/js/2.cf195d41.chunk.js": "/Hackathon-2025-React/static/js/2.cf195d41.chunk.js",
     "static/js/2.cf195d41.chunk.js.map": "/Hackathon-2025-React/static/js/2.cf195d41.chunk.js.map",
     "index.html": "/Hackathon-2025-React/index.html",
-    "static/css/main.96e1e190.chunk.css.map": "/Hackathon-2025-React/static/css/main.96e1e190.chunk.css.map",
+    "static/css/main.fb706a9c.chunk.css.map": "/Hackathon-2025-React/static/css/main.fb706a9c.chunk.css.map",
     "static/js/2.cf195d41.chunk.js.LICENSE.txt": "/Hackathon-2025-React/static/js/2.cf195d41.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Hackathon-2025-React/static/media/Rubik-Regular.a4bece5c.ttf",
     "static/media/category1.0a2eca7b.svg": "/Hackathon-2025-React/static/media/category1.0a2eca7b.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.1cd04801.js",
     "static/js/2.cf195d41.chunk.js",
-    "static/css/main.96e1e190.chunk.css",
-    "static/js/main.f1273819.chunk.js"
+    "static/css/main.fb706a9c.chunk.css",
+    "static/js/main.fd229f4e.chunk.js"
   ]
 }
