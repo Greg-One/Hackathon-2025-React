@@ -207,8 +207,8 @@ const Transform = ({history, onLawClick, onStepNext}) => {
                             defaultValue={poem}
                         />
 
-                                <nav className='transform__poem-actions'>
-                        <div className='transform__translation-controls'>
+                 
+                        <nav className='transform__translation-controls'>
                             <button
                                 className={`transform__poem-navigation
                            ${!isNext ? 'transform__poem-navigation_disabled' : ''}`}
@@ -266,8 +266,8 @@ const Transform = ({history, onLawClick, onStepNext}) => {
                                     />
                                 </svg>
                             </button>
-                        </div>
-                    </nav>
+                        </nav>
+                
                 </div>
                     </div>
                    
