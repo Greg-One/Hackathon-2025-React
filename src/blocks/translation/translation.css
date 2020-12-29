@@ -18,11 +18,18 @@
   color: #0c0e1a;
 }
 
-@media screen and (max-width: 910px) and (min-width: 700px) {
+@media screen and (max-width: 945px) and (min-width: 700px) {
   .translation {
-    height: 500px;
+    max-height: 216px;
+    width: 580px;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 430px) {
+  .translation {
+    width: 400px;
   }
 }
 

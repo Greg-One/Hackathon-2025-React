@@ -7,3 +7,11 @@
   background-image: url(../../../assets/images/ribbon.png);
   background-repeat: no-repeat;
 }
+
+@media screen and (max-height: 850px) {
+  .popup__redline {
+    background-image: url(../../../assets/images/ribbon_snall.png);
+    width: 121px;
+    height: 134px;
+  }
+}

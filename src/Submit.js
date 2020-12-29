@@ -162,7 +162,7 @@ const Submit = ({onSubmit, history}) => {
                         <nav className='button__container button__container_submit'>
                             <button
                                 type='reset'
-                                className='button__reverse'
+                                className='button__reverse button__reverse_submit'
                                 onClick={() => history.push('./transform')}
                                 form='form'
                             >

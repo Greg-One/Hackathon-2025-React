@@ -25,7 +25,20 @@
   fill: #e33a22;
 }
 
-@media screen and (max-width: 768px) and (min-width: 320px) {
+@media screen and (max-width: 970px) and (min-width: 700px) {
+  .categories__card {
+    width: 672px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 510px) {
+  .categories__card {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 510px) and (min-width: 320px) {
   .categories__card {
     width: 320px;
   }
