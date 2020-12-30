@@ -10,7 +10,7 @@
 
 @media screen and (max-height: 850px) {
   .popup__redline {
-    background-image: url(../../../assets/images/ribbon_snall.png);
+    background-image: url(../../../assets/images/ribbon_small.png);
     width: 121px;
     height: 134px;
   }
