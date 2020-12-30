@@ -23,3 +23,6 @@
 **Станица на Github Pages**
 
 - [Ссылка на Github Pages](https://greg-one.github.io/Hackathon-2025-React/index.html)
+
+**Планы по доработке проекта:**
+- Добавить кастомную валидацию полей ввода.
