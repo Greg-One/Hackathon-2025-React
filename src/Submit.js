@@ -84,7 +84,7 @@ const Submit = ({onSubmit, history}) => {
                                             Телефон
                                         </label>
                                         <input
-                                            type='phone'
+                                            type='tel'
                                             name='telephone'
                                             required
                                             minLength='2'
