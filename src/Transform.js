@@ -198,7 +198,7 @@ const Transform = ({history, onLawClick, onStepNext}) => {
                         </div>
 
                         
-                        <div className="transform__poem-group">
+                        <div className={`transform__poem-group ${isNext && 'transform__poem-group_visible'}`}>
                         <textarea
                             disabled
                             name='Пример стихотворения'
