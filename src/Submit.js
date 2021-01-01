@@ -63,7 +63,9 @@ const Submit = ({ onSubmit, history }) => {
             >
               <fieldset name="contacts" className="submit__contacts">
                 <div className="submit__input-container">
-                  <label htmlFor="name" className="submit__label">
+                  {/* TODO: input обернуть в label, https://reactjs.org/docs/forms.html */}
+                  {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
+                  <label className="submit__label">
                     Имя
                   </label>
                   <input
@@ -84,7 +86,8 @@ const Submit = ({ onSubmit, history }) => {
 
                 <div className="submit__contacts-container">
                   <div className="submit__input-container">
-                    <label htmlFor="telephone" className="submit__label">
+                    {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
+                    <label className="submit__label">
                       Телефон
                     </label>
                     <input
@@ -104,7 +107,8 @@ const Submit = ({ onSubmit, history }) => {
                   </div>
 
                   <div className="submit__input-container">
-                    <label htmlFor="email" className="submit__label">
+                    {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
+                    <label className="submit__label">
                       E-mail
                     </label>
                     <input
@@ -125,7 +129,8 @@ const Submit = ({ onSubmit, history }) => {
                 </div>
 
                 <div className="submit__input-container">
-                  <label htmlFor="address" className="submit__label">
+                  {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
+                  <label className="submit__label">
                     Адрес
                   </label>
                   <input
@@ -147,7 +152,8 @@ const Submit = ({ onSubmit, history }) => {
             </form>
 
             <div className="submit__poem-example">
-              <label htmlFor="Пример стихотворения" className="submit__label">
+              {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
+              <label className="submit__label">
                 Обращение
               </label>
               <textarea
