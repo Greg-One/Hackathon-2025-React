@@ -168,9 +168,9 @@ const Transform = ({ history, onLawClick, onStepNext }) => {
                   <li key={i.id}>
                     <button
                       type="button"
-                      className={`transform__tag-container ${
-                        tag.id === i.id ? 'transform__tag-container_active' : ''
-                      }`}
+                      className={classNames('transform__tag-container', {
+                        'transform__tag-container_active': tag.id === i.id,
+                      })}
                       key={i.id}
                       onClick={() => handleTag(i)}
                     >
