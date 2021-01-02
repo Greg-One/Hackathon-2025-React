@@ -10,7 +10,7 @@ const SubmitResult = ({isOpen, onClose, email}) => {
                 <div className="popup__container popup__container_submit">
                     <button type="button" aria-label="Закрыть"
                             onClick={onClose}
-                            className="popup__close-button popup__submit_close-button"/>
+                            className="popup__close-button"/>
                     <h3 className="popup__title">Обращение № 123</h3>
                     <p className="popup__subtitle">Передано в Управляющую организацию № 3</p>
                     <p className="popup__text popup__text_submit">
