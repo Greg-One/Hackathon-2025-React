@@ -1,4 +1,6 @@
-const base = [
+import { ICategory } from '../interfaces';
+
+const base: (ICategory[]) = [
   {
     id: 1,
     name: 'Гражданская активность',
