@@ -9,11 +9,13 @@ import PropTypes from 'prop-types';
 const Main = ({onLawClick, history}) => {
     return (
         <div className="page">
+
             <header className="header">
                 <img src={header_logo} alt="" className="header__logo"/>
                 <button className="header__policy" onClick={onLawClick}>Политика конфиденциальности</button>
             </header>
             <main>
+                <section className="mainpage">
                 <h1 className="mainpage__title">Гражданин-поэт 2025</h1>
                 <p className="mainpage__subtitle">
                     До успешной подачи инициативы вам осталось 4 шага
@@ -58,6 +60,7 @@ const Main = ({onLawClick, history}) => {
                 <button type="submit" className="button__submit" onClick={() => history.push('./category')}>
                     Подать обращение
                 </button>
+                </section>
             </main>
             <footer className="footer">
                 <p className="footer__description">
