@@ -6,7 +6,7 @@ import EventClosePopup from "./EventClosePopup";
 const LawPopup = ({isOpen, onClose}) => {
 
     return (
-        <section className={`popup popup__lawquote ${isOpen ? "popup_is-opened" : ''}`}>
+        <section className={`popup popup_lawquote ${isOpen ? "popup_is-opened" : ''}`}>
             <EventClosePopup isOpen={isOpen} onClose={onClose}>
                 <div className="popup__container">
                     <button

@@ -5,7 +5,7 @@ import EventClosePopup from "./EventClosePopup";
 const SubmitResult = ({isOpen, onClose, email}) => {
 
     return (
-        <section className={`popup popup__submit ${isOpen ? "popup_is-opened" : ''}`}>
+        <section className={`popup popup_submit ${isOpen ? "popup_is-opened" : ''}`}>
             <EventClosePopup isOpen={isOpen} onClose={onClose}>
                 <div className="popup__container popup__container_submit">
                     <button type="button" aria-label="Закрыть"
