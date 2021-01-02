@@ -7,8 +7,8 @@ import card04 from '../assets/images/card04.png';
 import headerLogo from '../assets/images/header_logo.png';
 
 interface MainProps {
-  onLawClick(): void;
-  history: History.History;
+  onLawClick(): void,
+  history: History.History
 }
 
 const Main: React.FC<MainProps> = ({ onLawClick, history }) => (
