@@ -1,14 +1,12 @@
-.button__submit {
+.button_next-page {
   display: block;
   cursor: pointer;
-  margin: 0 auto;
-  margin-bottom: 20px;
   padding: 0;
   border: none;
   outline: none;
   height: 50px;
-  width: 240px;
-  background-color: #e33a22;
+  width: 120px;
+  background-color: #0d1f53;
   box-sizing: border-box;
   color: #fff;
   font-family: 'Rubik', 'Arial', sans-serif;
@@ -22,10 +20,11 @@
   transition: background-color 0.3s ease-in-out;
 }
 
-.button__submit:hover {
-  background-color: #ee7556;
+.button_next-page:hover {
+  background: #364a7f;
 }
 
-.button__submit:focus {
-  outline: 4px solid rgba(238, 117, 86, 0.5);
+.button_next-page:focus {
+  border: 2px solid #0d1f53;
+  outline: 4px solid rgba(54, 74, 127, 0.5);
 }

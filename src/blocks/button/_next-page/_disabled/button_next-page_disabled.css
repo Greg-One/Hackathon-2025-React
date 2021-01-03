@@ -1,4 +1,4 @@
-.button__submit_disabled {
+.button_next-page_disabled {
   background-color: #b6b5be;
   pointer-events: none;
 }

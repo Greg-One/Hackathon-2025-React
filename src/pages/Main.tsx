@@ -66,7 +66,7 @@ const Main: React.FC<MainProps> = ({ onLawClick, history }) => (
         </ul>
         <button
           type="submit"
-          className="button__submit"
+          className="button button_submit"
           onClick={() => history.push('./category')}
         >
           Подать обращение

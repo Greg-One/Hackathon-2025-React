@@ -1,4 +1,4 @@
-.button__reverse {
+.button_reverse {
   margin-right: 25px;
   display: block;
   cursor: pointer;
@@ -21,13 +21,12 @@
   transition: color 0.3s ease-in-out, border 0.3s ease-in-out;
 }
 
-.button__reverse:hover {
+.button_reverse:hover {
   border: 2px solid #364a7f;
   color: #364a7f;
 }
 
-.button__reverse:focus {
+.button_reverse:focus {
   border: 2px solid #0d1f53;
   outline: 4px solid rgba(54, 74, 127, 0.5);
 }
-

@@ -27,7 +27,7 @@ const SubmitResult: React.FC<SubmitResultProps> = ({ isOpen, onClose, email }) =
 
         <button
           type="button"
-          className="button__next-page button__next-page_confirm"
+          className="button button_next-page button_next-page_confirm"
           onClick={onClose}
         >
           Ок

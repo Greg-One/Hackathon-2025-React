@@ -78,7 +78,7 @@ const Submit: React.FC<SubmitProps> = ({ onSubmit, history }) => {
                 <div className="submit__input-container">
                   {/* TODO: input обернуть в label, https://reactjs.org/docs/forms.html */}
                   {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-                  <label className="submit__label">
+                  <label htmlFor="name" className="submit__label">
                     Имя
                   </label>
                   <input
@@ -97,7 +97,7 @@ const Submit: React.FC<SubmitProps> = ({ onSubmit, history }) => {
                 <div className="submit__contacts-container">
                   <div className="submit__input-container">
                     {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-                    <label className="submit__label">
+                    <label htmlFor="telephone" className="submit__label">
                       Телефон
                     </label>
                     <input
@@ -115,12 +115,12 @@ const Submit: React.FC<SubmitProps> = ({ onSubmit, history }) => {
 
                   <div className="submit__input-container">
                     {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-                    <label className="submit__label">
+                    <label htmlFor="email" className="submit__label">
                       E-mail
                     </label>
                     <input
                       type="email"
-                      name="Email"
+                      name="email"
                       required
                       minLength={2}
                       maxLength={30}
@@ -134,7 +134,7 @@ const Submit: React.FC<SubmitProps> = ({ onSubmit, history }) => {
 
                 <div className="submit__input-container">
                   {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
-                  <label className="submit__label">
+                  <label htmlFor="address" className="submit__label">
                     Адрес
                   </label>
                   <input
@@ -166,18 +166,18 @@ const Submit: React.FC<SubmitProps> = ({ onSubmit, history }) => {
             </div>
           </div>
           <div className="submit__navigation">
-            <nav className="button__container button__container_submit">
+            <nav className="submit__button-container">
               <button
                 type="submit"
-                className="button__reverse button__reverse_submit"
+                className="button button_reverse button_reverse_submit"
                 onClick={handleTransformStep}
               >
                 Назад
               </button>
               <button
                 type="submit"
-                className={classNames('button__submit', {
-                  button__submit_disabled: !isSubmit,
+                className={classNames('button', 'button_submit', {
+                  button_submit_disabled: !isSubmit,
                 })}
                 disabled={!isSubmit}
                 form="form-submit"
