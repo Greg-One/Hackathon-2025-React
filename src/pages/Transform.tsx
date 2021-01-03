@@ -329,17 +329,17 @@ const Transform: React.FC<TransformProps> = ({ history, onLawClick, onStepNext }
                 форму?
               </button>
             </div>
-            <nav className="button__container">
+            <nav className="transform__button-container">
               <button
                 type="button"
-                className="button__reverse"
+                className="button button__reverse"
                 onClick={handleCategoryStep}
               >
                 Назад
               </button>
               <button
                 type="submit"
-                className={classNames('button__next-page', {
+                className={classNames('button', 'button__next-page', {
                   'button__next-page_disabled': !isNext,
                 })}
                 disabled={!isNext}
