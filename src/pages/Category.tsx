@@ -85,10 +85,10 @@ const Category: React.FC<CategoryProps> = ({ history }) => {
               </li>
             ))}
           </ul>
-          <div className="button__container button__container_categories">
+          <nav className="categories__button-container">
             <button
               type="submit"
-              className={classNames('button__next-page', {
+              className={classNames('button', 'button__next-page', {
                 'button__next-page_disabled': !isNext,
               })}
               disabled={!isNext}
@@ -96,7 +96,7 @@ const Category: React.FC<CategoryProps> = ({ history }) => {
             >
               Далее
             </button>
-          </div>
+          </nav>
         </section>
       </main>
     </div>

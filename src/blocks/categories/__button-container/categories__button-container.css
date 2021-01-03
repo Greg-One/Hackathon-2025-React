@@ -1,0 +1,14 @@
+.categories__button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 24px;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 650px) and (min-width: 320px) {
+  .categories__button-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

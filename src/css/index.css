@@ -26,7 +26,7 @@
 @import url(../blocks/categories/__card-title/categories__card-title.css);
 @import url(../blocks/categories/__card-image/categories__card-image.css);
 @import url(../blocks/categories/__card/_active/categories__card_active.css);
-/* контейнер */
+@import url(../blocks/categories/__button-container/categories__button-container.css);
 
 @import url(../blocks/transform/transform.css);
 @import url(../blocks/transform/__tag-cloud/transform__tag-cloud.css);
@@ -73,13 +73,6 @@
 /* перенести в трансформ */
 @import url(../blocks/button/__container/button__container.css);
 
-/* перенести в сабмит */
-@import url(../blocks/button/__container/_submit/button__container_submit.css);
-
-/* перенести в категории */
-@import url(../blocks/button/__container/_categories/button__container_categories.css);
-
-/* ааа */
 @import url(../blocks/button/__translate/button__translate.css);
 @import url(../blocks/button/__translate/_disabled/button__translate_disabled.css);
 @import url(../blocks/button/__next-page/_confirm/button__next-page_confirm.css);
