@@ -15,7 +15,7 @@ const LawPopup: React.FC<LawPopupProps> = ({ isOpen, onClose }) => (
           type="button"
           aria-label="Закрыть"
           onClick={onClose}
-          className="popup__close-button popup__lawquote_close-button"
+          className="popup__close-button"
         />
         <div className="popup__redline" />
         <img src={popupLogo} alt="" className="popup__logo" />
