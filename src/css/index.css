@@ -69,10 +69,6 @@
 @import url(../blocks/button/__submit/button__submit.css);
 @import url(../blocks/button/__next-page/button__next-page.css);
 @import url(../blocks/button/__reverse/button__reverse.css);
-
-/* перенести в трансформ */
-@import url(../blocks/button/__container/button__container.css);
-
 @import url(../blocks/button/__translate/button__translate.css);
 @import url(../blocks/button/__translate/_disabled/button__translate_disabled.css);
 @import url(../blocks/button/__next-page/_confirm/button__next-page_confirm.css);
