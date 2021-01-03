@@ -169,15 +169,15 @@ const Submit: React.FC<SubmitProps> = ({ onSubmit, history }) => {
             <nav className="submit__button-container">
               <button
                 type="submit"
-                className="button button__reverse button__reverse_submit"
+                className="button button_reverse button_reverse_submit"
                 onClick={handleTransformStep}
               >
                 Назад
               </button>
               <button
                 type="submit"
-                className={classNames('button', 'button__submit', {
-                  button__submit_disabled: !isSubmit,
+                className={classNames('button', 'button_submit', {
+                  button_submit_disabled: !isSubmit,
                 })}
                 disabled={!isSubmit}
                 form="form-submit"

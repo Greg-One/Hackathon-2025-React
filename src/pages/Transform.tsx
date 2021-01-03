@@ -213,8 +213,8 @@ const Transform: React.FC<TransformProps> = ({ history, onLawClick, onStepNext }
               </ul>
               <button
                 type="button"
-                className={classNames('button__translate', {
-                  button__translate_disabled: !isTranslate,
+                className={classNames('button', 'button_translate', {
+                  button_translate_disabled: !isTranslate,
                 })}
                 disabled={!isTranslate}
                 onClick={handleTransform}
@@ -332,15 +332,15 @@ const Transform: React.FC<TransformProps> = ({ history, onLawClick, onStepNext }
             <nav className="transform__button-container">
               <button
                 type="button"
-                className="button button__reverse"
+                className="button button_reverse"
                 onClick={handleCategoryStep}
               >
                 Назад
               </button>
               <button
                 type="submit"
-                className={classNames('button', 'button__next-page', {
-                  'button__next-page_disabled': !isNext,
+                className={classNames('button', 'button_next-page', {
+                  'button_next-page_disabled': !isNext,
                 })}
                 disabled={!isNext}
                 onClick={handleSubmit}

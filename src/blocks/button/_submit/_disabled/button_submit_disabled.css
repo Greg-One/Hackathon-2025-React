@@ -1,4 +1,4 @@
-.button__translate_disabled {
+.button_submit_disabled {
   background-color: #b6b5be;
   pointer-events: none;
 }

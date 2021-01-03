@@ -66,16 +66,16 @@
 @import url(../blocks/translation/_submit/translation_submit.css);
 
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/__submit/button__submit.css);
-@import url(../blocks/button/__next-page/button__next-page.css);
-@import url(../blocks/button/__reverse/button__reverse.css);
-@import url(../blocks/button/__translate/button__translate.css);
-@import url(../blocks/button/__translate/_disabled/button__translate_disabled.css);
-@import url(../blocks/button/__next-page/_confirm/button__next-page_confirm.css);
-@import url(../blocks/button/__next-page/_disabled/button__next-page_disabled.css);
-@import url(../blocks/button/__submit/_disabled/button__submit_disabled.css);
-@import url(../blocks/button/__reverse/_disabled/button__reverse_disabled.css);
-@import url(../blocks/button/__reverse/_submit/button__reverse_submit.css);
+@import url(../blocks/button/_submit/button_submit.css);
+@import url(../blocks/button/_next-page/button_next-page.css);
+@import url(../blocks/button/_reverse/button_reverse.css);
+@import url(../blocks/button/_translate/button_translate.css);
+@import url(../blocks/button/_translate/_disabled/button_translate_disabled.css);
+@import url(../blocks/button/_next-page/_confirm/button_next-page_confirm.css);
+@import url(../blocks/button/_next-page/_disabled/button_next-page_disabled.css);
+@import url(../blocks/button/_submit/_disabled/button_submit_disabled.css);
+@import url(../blocks/button/_reverse/_disabled/button_reverse_disabled.css);
+@import url(../blocks/button/_reverse/_submit/button_reverse_submit.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__close-button/popup__close-button.css);
