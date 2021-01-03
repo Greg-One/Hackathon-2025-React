@@ -1,0 +1,14 @@
+.submit__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 90px;
+}
+
+@media screen and (max-width: 970px) and (min-width: 320px) {
+  .submit__navigation {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+}

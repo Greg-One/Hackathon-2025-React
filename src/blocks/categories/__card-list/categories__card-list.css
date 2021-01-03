@@ -1,0 +1,17 @@
+.categories__card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 970px) and (min-width: 320px) {
+  .categories__card-list {
+    justify-content: center;
+  }
+}

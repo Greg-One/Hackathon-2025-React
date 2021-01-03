@@ -1,0 +1,34 @@
+.transform__tag-cloud {
+  list-style: none;
+  padding: 10px 30px;
+  width: 580px;
+  margin: 0;
+  max-height: 215px;
+  border: 1px solid #b6b5be;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  gap: 10px;
+}
+
+@media screen and (max-width: 945px) and (min-width: 320px) {
+  .transform__tag-cloud {
+    align-items: center;
+    justify-content: center;
+    max-height: 300px;
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 320px) {
+  .transform__tag-cloud {
+    max-height: 500px;
+    width: 378px;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 320px) {
+  .transform__tag-cloud {
+    width: 315px;
+  }
+}

@@ -1,0 +1,4 @@
+.button_translate_disabled {
+  background-color: #b6b5be;
+  pointer-events: none;
+}

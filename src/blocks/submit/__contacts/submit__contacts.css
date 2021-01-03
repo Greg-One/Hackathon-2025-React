@@ -1,0 +1,22 @@
+.submit__contacts {
+  padding: 0;
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  width: 580px;
+  border: none;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 700px) and (min-width: 425px) {
+  .submit__contacts {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
+  .submit__contacts {
+    width: 320px;
+    margin-bottom: 24px;
+  }
+}

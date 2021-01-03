@@ -1,0 +1,5 @@
+@media screen and (max-width: 500px) and (min-width: 320px) {
+  .button_reverse_submit {
+    margin-right: 0;
+  }
+}

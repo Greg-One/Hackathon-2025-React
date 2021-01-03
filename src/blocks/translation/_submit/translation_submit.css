@@ -1,0 +1,9 @@
+.translation_submit {
+  height: 270px;
+}
+
+@media screen and (max-width: 970px) and (min-width: 700px) {
+  .translation_submit {
+    width: 580px;
+  }
+}

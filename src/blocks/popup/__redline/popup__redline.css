@@ -1,0 +1,17 @@
+.popup__redline {
+  position: absolute;
+  width: 239px;
+  height: 209px;
+  left: 0px;
+  top: 0px;
+  background-image: url(../../../assets/images/ribbon.png);
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-height: 850px) {
+  .popup__redline {
+    background-image: url(../../../assets/images/ribbon_small.png);
+    width: 121px;
+    height: 134px;
+  }
+}

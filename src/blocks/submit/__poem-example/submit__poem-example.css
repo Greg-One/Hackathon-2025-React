@@ -1,0 +1,4 @@
+.submit__poem-example {
+  display: flex;
+  flex-direction: column;
+}

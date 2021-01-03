@@ -1,0 +1,17 @@
+.transform__poem-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 700px) and (min-width: 320px) {
+  .transform__poem-group {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 812px) and (min-width: 320px) {
+  .transform__poem-group {
+    display: none;
+  }
+}

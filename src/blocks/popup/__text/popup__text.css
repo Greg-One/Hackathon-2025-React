@@ -1,0 +1,24 @@
+.popup__text {
+  max-width: 850px;
+  margin: 0 48px;
+  font-family: 'Rubik', 'Arial', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.popup__text:last-of-type {
+  padding-bottom: 50px;
+}
+
+@media screen and (max-height: 812px) {
+  .popup__text {
+    font-size: 10px;
+    line-height: 12px;
+    padding-bottom: 5px;
+  }
+}

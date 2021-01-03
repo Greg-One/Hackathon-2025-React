@@ -1,0 +1,11 @@
+.transform__footer-info {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+  .transform__footer-info {
+    max-width: 320px;
+  }
+}

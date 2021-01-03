@@ -1,0 +1,15 @@
+.popup__text_submit {
+  text-align: center;
+  padding: 0;
+  font-family: 'Rubik', 'Arial', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.popup__text_submit:last-of-type {
+  padding: 0;
+}

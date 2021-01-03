@@ -1,0 +1,5 @@
+.button_reverse_disabled {
+  border: 2px solid #b6b5be;
+  color: #b6b5be;
+  pointer-events: none;
+}

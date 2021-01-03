@@ -1,0 +1,18 @@
+.transform__translation-controls {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 192px;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 500px) and (min-width: 320px) {
+  .transform__translation-controls {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 200px;
+  }
+}

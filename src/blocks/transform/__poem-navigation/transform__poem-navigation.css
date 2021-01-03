@@ -1,0 +1,19 @@
+.transform__poem-navigation {
+  outline: none;
+  border: none;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  background-color: #edecf1;
+  transition: background-color 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.transform__poem-navigation:hover {
+  background-color: #efeff3;
+}
+
+.transform__poem-navigation:active {
+  background-color: rgba(203, 202, 216, 0.7);
+}

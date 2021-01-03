@@ -1,0 +1,6 @@
+.transform__poem-navigation_disabled {
+  pointer-events: none;
+  stroke: #b6b5be;
+  fill: #b6b5be;
+  opacity: 0.5;
+}
